@@ -15,24 +15,24 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-3xl sm:text-4xl lg:text-5xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
+              Hello, I&apos;m{" "} futahashi
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Futahashi Hisatomo",
-                1000,
                 "AWS Engineer",
                 1000,
                 "Infrastructure Engineer",
                 1000,
                 "Site Reliability Engineer",
                 1000,
+                "Network Engineer",
+                1000,
               ]}
               wrapper="span"
-              speed={10}
+              speed={5}
               repeat={Infinity}
             />
           </h1>
