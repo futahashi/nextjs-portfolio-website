@@ -103,7 +103,7 @@ const AboutSection = () => {
             <br></br>
             所属: 株式会社ヌーラボ (Nulab Inc.)
           </p>
-          <div className="text-xl flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
