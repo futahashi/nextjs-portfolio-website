@@ -53,9 +53,9 @@ const EmailSection = () => {
         <h5 className="text-xl text-white my-2">
           仕事の依頼も時々受け付けています。
           <br></br>
-          お気軽に繋がり申請お願いします🫶
+          お気軽に繋がり申請お願いします。
           <br></br>
-          Let&apos;s connect!!
+          Let&apos;s connect!! 🫶
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
