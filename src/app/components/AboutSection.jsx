@@ -10,11 +10,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>AWS ❤️</li>
-          {/* <ul className="list-disc pl-1">
-            <li>(Design/Development/Operation/Maintenance with High Security & Low Costs)</li>
-            </ul> */}
         <li>Linux</li>
-        {/* <li>Linux (Design/Development/Operation/Maintenance over 100+ servers)</li> */}
         <li>IaC</li>
         <li>DevOps</li>
         <li>Network</li>

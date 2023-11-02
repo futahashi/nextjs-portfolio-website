@@ -13,7 +13,7 @@ const ContributionsSection = () => {
       <div className="md:grid md:grid-cols-1 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Contributions 💪</h2>
-          <ul className="list-disc pl-2">
+          <ul className="text-xl list-disc pl-2">
             <li>
               <ExternalLink href="https://aws.amazon.com/jp/blogs/psa/aws-graviton-momentum-with-software-partner/">
               国内 AWS ソフトウェアパートナーにおける AWS Graviton 活用のモメンタム
