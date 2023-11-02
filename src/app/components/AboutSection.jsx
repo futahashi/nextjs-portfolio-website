@@ -9,7 +9,7 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS</li>
+        <li>AWS ❤️</li>
           {/* <ul className="list-disc pl-1">
             <li>(Design/Development/Operation/Maintenance with High Security & Low Costs)</li>
             </ul> */}
@@ -30,11 +30,12 @@ const TAB_DATA = [
     id: "hobbies",
     content: (
       <ul className="list-disc pl-2">
-        <li>Learning AWS</li>
+        <li>Learning Technologies especially AWS ❤️</li>
         <li>Learning English</li>
         <li>Learning Unity for Game development</li>
         <li>Learning Blender for 3D modeling</li>
-        <li>Play with my children</li>
+        <li>Learning childcare</li>
+        <li>Play with my children 👧👧</li>
         <li>Playing Ukulele</li>
         <li>Playing Piano</li>
         <li>Playing sports</li>
@@ -49,8 +50,26 @@ const TAB_DATA = [
     id: "career",
     content: (
       <ul className="list-disc pl-2">
-        <li>(2018-) 株式会社ヌーラボ (英文: Nulab Inc.)</li>
+        <li>(2018-) 株式会社ヌーラボ (Nulab Inc.)</li>
         <li>(2012-2018) 富士通九州ネットワークテクノロジーズ</li>
+        <li>(2012) 大分工業高等専門学校 電気電子制御情報工学化専攻卒</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Experiences",
+    id: "experiences",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Design and implementation of system redundancy / acceleration / cost reduction / automation, etc.</li>
+        <li>Development of many DevOps environments / automation tools.</li>
+        <li>Design and implementation of IPO-level system security.</li>
+        <li>24/365 Chat SaaS on call.</li>
+        <li>100+ servers management.</li>
+        <li>System design / development / operation / maintenance in AWS cloud.</li>
+        <li>Server and network construction for on-premise environment.</li>
+        <li>Work in English with native speakers via video calls / chat / tickets.</li>
+        etc.
       </ul>
     ),
   },
@@ -74,19 +93,19 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me 🤩</h2>
           <p className="text-base lg:text-lg">
             こんにちは! futahashi ( 二橋 宣友 ) です。
-            主に、AWSエンジニア / インフラエンジニア / SREとして働いています。
-            技術的には、特にAWS / Linux / IaC / DevOps を得意としています。
-
-            歴史のある大企業の大規模レガシープロジェクトで身につけた業務遂行能力と、グローバルなスタートアップ企業で培った技術やコラボレーション能力、IPO等の様々な経験が強みです。
-
+            主に、AWSエンジニア / インフラエンジニア / SRE / ネットワークエンジニアとして働いています。
+            情熱と信念を持って仕事に取り組み、尊敬と信頼を持って人々と関わり、何事においても笑いと楽しさを大切にする、そんなエンジニアです。たぶん。
+            <br></br>
+            <br></br>
+            得意な技術は、特にAWS / Linux / IaC / DevOps です。
+            キャリアとして、国内大企業の大規模プロジェクトで身につけた業務遂行能力と、グローバルに展開するスタートアップ企業で培った技術やコラボレーション能力、IPO等の様々な経験が強みです。
+            <br></br>
+            <br></br>
+            世界平和実現に向けて仕事も家庭も頑張ります。
             仕事や趣味を通じてより多くの素敵な方々と関われると幸いです！
-
-            {/* I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications. */}
+            <br></br>
+            <br></br>
+            所属: 株式会社ヌーラボ (Nulab Inc.)
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -102,6 +121,13 @@ const AboutSection = () => {
             >
               {" "}
               Career{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("experiences")}
+              active={tab === "experiences"}
+            >
+              {" "}
+              Experiences{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("hobbies")}

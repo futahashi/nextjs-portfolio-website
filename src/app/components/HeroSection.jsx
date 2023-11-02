@@ -36,7 +36,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
             <br></br>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            <span className="text-white">
               Engineer
             </span>
           </h1>
