@@ -39,7 +39,7 @@ const AwardsSection = () => {
                   (2022) 2022 APN AWS Top Engineers
                 </ExternalLink>
               </li>
-              <li>(2021) Nulab President's Award</li>
+              <li>(2021) Nulab President&apos;s Award</li>
               <li>(2020) Mackerel Ambassador</li>
           </ul>
         </div>
