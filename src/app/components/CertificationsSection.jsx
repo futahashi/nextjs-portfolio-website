@@ -11,7 +11,7 @@ const CertificationsSection = () => {
       <div className="md:grid md:grid-cols-1 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Certifications 👑</h2>
-          <ul className="text-xl list-disc pl-2">
+          <ul className="text-lg list-disc pl-2">
             <li>(2022) AWS Certified Cloud Practitioner (CLF)</li>
             <li>(2022) AWS Certified Advanced Networking - Specialty (ANS)</li>
             <li>(2022) AWS Certified Database - Specialty (DBS)</li>

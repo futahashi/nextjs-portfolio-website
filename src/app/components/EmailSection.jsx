@@ -50,7 +50,7 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
       <h2 className="text-4xl font-bold text-white mb-4">Contact 🤝</h2>
-        <h5 className="text-xl text-white my-2">
+        <h5 className="text-lg text-white my-2">
           仕事の依頼も時々受け付けています。
           <br></br>
           お気軽に繋がり申請お願いします。

@@ -83,8 +83,8 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/futahashi2.jpg" width={500} height={500} />
+      <div className="md:grid md:grid-cols-1 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        {/* <Image src="/images/futahashi2.jpg" width={500} height={500} /> */}
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me 🤩</h2>
           <p className="text-base lg:text-lg">
@@ -103,7 +103,7 @@ const AboutSection = () => {
             <br></br>
             所属: 株式会社ヌーラボ (Nulab Inc.)
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="text-xl flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
