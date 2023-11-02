@@ -74,7 +74,7 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me 🤩</h2>
           <p className="text-base lg:text-lg">
             こんにちは! futahashi ( 二橋 宣友 ) です。
-            私は主に、AWSエンジニア / インフラエンジニア / SREとして働いています。
+            主に、AWSエンジニア / インフラエンジニア / SREとして働いています。
             技術的には、特にAWS / Linux / IaC / DevOps を得意としています。
 
             歴史のある大企業の大規模レガシープロジェクトで身につけた業務遂行能力と、グローバルなスタートアップ企業で培った技術やコラボレーション能力、IPO等の様々な経験が強みです。

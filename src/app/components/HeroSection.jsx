@@ -22,19 +22,23 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "AWS Engineer",
+                "AWS Cloud",
                 1000,
-                "Infrastructure Engineer",
+                "Infrastructure",
                 1000,
-                "Site Reliability Engineer",
+                "Site Reliability",
                 1000,
-                "Network Engineer",
+                "Network",
                 1000,
               ]}
               wrapper="span"
               speed={5}
               repeat={Infinity}
             />
+            <br></br>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+              Engineer
+            </span>
           </h1>
           {/* <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
