@@ -9,13 +9,14 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS ❤️</li>
-        <li>Linux</li>
-        <li>IaC</li>
-        <li>DevOps</li>
-        <li>Network</li>
-        <li>Virtualization</li>
-        <li>Programing</li>
+        <li>AWS ❤️ (Compute / Containers / Database / Developer Tools / Networking & Content Delivery / Security, Identity, & Compliance / 
+Storage etc.) </li>
+        <li>Linux (Server construction / operation / maintenance etc.)</li>
+        <li>IaC (Terraform / Ansible etc.)</li>
+        <li>DevOps (Jenkins / AWS Code series etc.) </li>
+        <li>Network (AWS Cloud Networking / Cisco etc.)</li>
+        <li>Virtualization (Docker / KVM etc.)</li>
+        <li>Programing (Python / Ruby etc.)</li>
         <li>Project Management</li>
         etc.
       </ul>
@@ -58,11 +59,14 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Design and implementation of system redundancy / acceleration / cost reduction / automation, etc.</li>
-        <li>Development of many DevOps environments / automation tools.</li>
         <li>Design and implementation of IPO-level system security.</li>
         <li>24/365 Chat SaaS on call.</li>
         <li>100+ servers management.</li>
         <li>System design / development / operation / maintenance in AWS cloud.</li>
+        <li>Multi Account design / development / operation / maintenance in AWS cloud.</li>
+        <li>Load test environment design / development</li>
+        <li>DevOps environment design / development / operation / maintenance such as Jenkins, AWS Code series.</li>
+        <li>Linux OS major version up migration.</li>
         <li>Server and network construction for on-premise environment.</li>
         <li>Work in English with native speakers via video calls / chat / tickets.</li>
         etc.
