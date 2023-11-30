@@ -48,8 +48,9 @@ Storage etc.) </li>
     id: "career",
     content: (
       <ul className="list-disc pl-2">
-        <li>(2018-) 株式会社ヌーラボ (Nulab Inc.)</li>
-        <li>(2012-2018) 富士通九州ネットワークテクノロジーズ</li>
+        <li>(2023-) ホライズンテクノロジー株式会社 技術顧問就任</li>
+        <li>(2018-) 株式会社ヌーラボ 所属</li>
+        <li>(2012-2018) 富士通九州ネットワークテクノロジーズ 所属</li>
         <li>(2012) 大分工業高等専門学校 電気電子情報工学専攻卒</li>
       </ul>
     ),
@@ -107,6 +108,8 @@ const AboutSection = () => {
             <br></br>
             <br></br>
             所属: 株式会社ヌーラボ (Nulab Inc.)
+            <br></br>
+            技術顧問: ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
