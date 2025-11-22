@@ -15,6 +15,7 @@ const CertificationsSection = () => {
             <li>(2025) Datadog Certified: Datadog Fundamentals</li>
             <li>(2025) Datadog Certified: Log Management Fundamentals</li>
             <li>(2025) Datadog Certified: APM and Distributed Tracing Fundamentals</li>
+            <li>(2025) CEFR B1</li>
             <li>(2022) AWS Certified Cloud Practitioner (CLF)</li>
             <li>(2022) AWS Certified Advanced Networking - Specialty (ANS)</li>
             <li>(2022) AWS Certified Database - Specialty (DBS)</li>
