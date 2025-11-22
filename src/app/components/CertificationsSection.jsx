@@ -12,6 +12,9 @@ const CertificationsSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Certifications 👑</h2>
           <ul className="text-lg list-disc pl-2">
+            <li>(2025) Datadog Certified: Datadog Fundamentals</li>
+            <li>(2025) Datadog Certified: Log Management Fundamentals</li>
+            <li>(2025) Datadog Certified: APM and Distributed Tracing Fundamentals</li>
             <li>(2022) AWS Certified Cloud Practitioner (CLF)</li>
             <li>(2022) AWS Certified Advanced Networking - Specialty (ANS)</li>
             <li>(2022) AWS Certified Database - Specialty (DBS)</li>
