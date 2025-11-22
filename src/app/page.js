@@ -5,6 +5,7 @@ import AboutSection from "./components/AboutSection";
 import AwardsSection from "./components/AwardsSection";
 import CertificationsSection from "./components/CertificationsSection";
 import ContributionsSection from "./components/ContributionsSection";
+import CommunitySection from "./components/CommunitySection";
 import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
@@ -21,6 +22,7 @@ export default function Home() {
         <AwardsSection />
         <CertificationsSection />
         <ContributionsSection />
+        <CommunitySection />
         {/* <ProjectsSection /> */}
         <EmailSection />
       </div>

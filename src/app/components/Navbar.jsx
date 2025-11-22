@@ -23,6 +23,10 @@ const navLinks = [
     path: "#contributions",
   },
   {
+    title: "Community",
+    path: "#community",
+  },
+  {
     title: "Contact",
     path: "#contact",
   },

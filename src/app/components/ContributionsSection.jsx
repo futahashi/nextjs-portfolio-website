@@ -7,7 +7,7 @@ import ExternalLink from "./ExternalLink";
 // import { motion } from "framer-motion";
 // import Link from "next/link";
 
-const ContributionsSection = () => {s
+const ContributionsSection = () => {
   return (
     <section className="text-white" id="contributions">
       <div className="md:grid md:grid-cols-1 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
