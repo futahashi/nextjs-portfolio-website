@@ -11,16 +11,16 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>AWS ❤️ (Compute / Containers / Database / Developer Tools / Networking & Content Delivery / Security, Identity, & Compliance / 
 Storage etc.) </li>
-        <li>Observability (Datadog etc.)</li>
+        <li>Datadog 💜</li>
         <li>Kubernetes</li>
         <li>FinOps</li>
         <li>Linux (Server construction / operation / maintenance etc.)</li>
         <li>IaC (Terraform / Ansible / Serverless Framework etc.)</li>
-        <li>DevOps (Jenkins / AWS Code series / ChatOps etc.) </li>
+        <li>DevOps (GitHub / AWS Code series / Jenkins / ChatOps etc.) </li>
         <li>Network (AWS Cloud Networking / Cisco etc.)</li>
         <li>Virtualization (Docker / KVM etc.)</li>
-        <li>Monitoring (Mackerel / Pagerduty etc.)</li>
-        <li>Programing (Python / Ruby etc.)</li>
+        <li>Monitoring (Mackerel / Pagerduty / Nagios etc.)</li>
+        <li>Programming (Python / Ruby etc.)</li>
         <li>Project Management</li>
         etc.
       </ul>
