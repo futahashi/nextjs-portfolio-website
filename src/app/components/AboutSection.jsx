@@ -62,18 +62,9 @@ Storage etc.) </li>
     id: "hobbies",
     content: (
       <ul className="list-disc pl-2">
-        <li>Learning Technologies especially AWS ❤️</li>
-        <li>Learning English</li>
-        <li>Learning Unity for Game development</li>
-        <li>Learning Blender for 3D modeling</li>
-        <li>Learning childcare</li>
-        <li>Play with my children 👧👧</li>
-        <li>Playing Ukulele</li>
-        <li>Playing Piano</li>
-        <li>Playing sports</li>
-        <li>Social Drinking</li>
-        <li>Cooking</li>
-        etc.
+        <li>AWS & Datadog</li>
+        <li>Work</li>
+        <li>Playing with my children</li>
       </ul>
     ),
   },
