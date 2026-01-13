@@ -18,6 +18,11 @@ const ContributionsSection = () => {
               Datadog Live Tokyo 2025 (12/16) - AI Agent で実現する AIOps ― Bits AI SRE 国内活用事例 ―
             </li>
             <li>
+              <ExternalLink href="https://www.datadoghq.com/product/ai/bits-ai-sre/">
+              Datadog Bits AI SRE - Customer Testimonials by Nulab Lead SRE futahashi
+              </ExternalLink>
+            </li>
+            <li>
               Datadog Live Tokyo 2025 (06/03) - ツール乱立を越えて Datadog 標準化と開発者体験向上の道
             </li>
             <li>
@@ -31,8 +36,8 @@ const ContributionsSection = () => {
               </ExternalLink>
             </li>
             <li>
-              <ExternalLink href="https://aws.amazon.com/ec2/graviton/customers/?nc1=h_ls&ec2-instances-customers-cards.sort-by=item.additionalFields.date-added&ec2-instances-customers-cards.sort-order=desc&awsf.success-story-topic=*all&awsf.content-type=*all&awsf.use-case=*all&awsf.processor=*all&awsf.instance-name=*all&awsf.managed-services=*all&awsf.programming-language=*all&awsf.industry=*all&awsf.region=*all&awsf.year=*all&ec2-instances-customers-cards.q=nulab&ec2-instances-customers-cards.q_operator=AND">
-              AWS Graviton Customers - Nulab
+              <ExternalLink href="https://aws.amazon.com/ec2/graviton/customers/#nulab">
+              AWS Graviton - Customer Testimonials by Nulab SRE futahashi
               </ExternalLink>
             </li>
             <li>
