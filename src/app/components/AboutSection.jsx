@@ -80,21 +80,22 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me 🤩</h2>
           <p className="text-base lg:text-lg">
             こんにちは! futahashi ( 二橋 宣友 ) です。
-            主に、AWSエンジニア / インフラエンジニア / SRE / ネットワークエンジニアとして働いています。
+            主にSREとして、AWS / Datadog / FinOps / Security エンジニアとして働いています。
+            好きな言葉は、継続は力なり / 石の上にも三年 / 笑う門には福来る / 愛と慈しみの心 です。
             情熱と信念を持って仕事に取り組み、尊敬と信頼を持って人々と関わり、何事においても笑いと楽しさを大切にする、そんなエンジニアです。たぶん。
             <br></br>
             <br></br>
-            得意な技術は、特にAWS / Linux / IaC / DevOps です。
-            キャリアとして、国内大企業の大規模プロジェクトで身につけた業務遂行能力と、グローバルに展開するスタートアップ企業で培った技術やコラボレーション能力、IPO等の様々な経験が強みです。
+            国内大企業の大規模プロジェクトで身につけた業務遂行能力と、グローバルに展開するスタートアップ企業で培った技術やコラボレーション能力、多様なSRE経験の積み重ねが強みです。
             <br></br>
             <br></br>
             世界平和実現に向けて仕事も家庭も頑張ります。
             仕事や趣味を通じてより多くの素敵な方々と関われると幸いです！
             <br></br>
             <br></br>
-            所属: 株式会社ヌーラボ (Nulab Inc.)
+            Lead SRE @ 株式会社ヌーラボ (Nulab Inc.)
             <br></br>
-            技術顧問: ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)
+            技術顧問 @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)
+            SRE @ 合同会社Ignission (Ignission G.K.)
           </p>
           
           <div className="mt-8 space-y-8">
