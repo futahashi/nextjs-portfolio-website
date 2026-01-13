@@ -1,9 +1,8 @@
 "use client";
-import React, { useTransition, useState } from "react";
+import React from "react";
 import Image from "next/image";
-import TabButton from "./TabButton";
 
-const TAB_DATA = [
+const SECTIONS_DATA = [
   {
     title: "Skills",
     id: "skills",
@@ -22,26 +21,6 @@ Storage etc.) </li>
         <li>Monitoring (Mackerel / Pagerduty / Nagios etc.)</li>
         <li>Programming (Python / Ruby etc.)</li>
         <li>Project Management</li>
-        etc.
-      </ul>
-    ),
-  },
-  {
-    title: "Hobbies",
-    id: "hobbies",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Learning Technologies especially AWS ❤️</li>
-        <li>Learning English</li>
-        <li>Learning Unity for Game development</li>
-        <li>Learning Blender for 3D modeling</li>
-        <li>Learning childcare</li>
-        <li>Play with my children 👧👧</li>
-        <li>Playing Ukulele</li>
-        <li>Playing Piano</li>
-        <li>Playing sports</li>
-        <li>Social Drinking</li>
-        <li>Cooking</li>
         etc.
       </ul>
     ),
@@ -78,17 +57,29 @@ Storage etc.) </li>
       </ul>
     ),
   },
+  {
+    title: "Hobbies",
+    id: "hobbies",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Learning Technologies especially AWS ❤️</li>
+        <li>Learning English</li>
+        <li>Learning Unity for Game development</li>
+        <li>Learning Blender for 3D modeling</li>
+        <li>Learning childcare</li>
+        <li>Play with my children 👧👧</li>
+        <li>Playing Ukulele</li>
+        <li>Playing Piano</li>
+        <li>Playing sports</li>
+        <li>Social Drinking</li>
+        <li>Cooking</li>
+        etc.
+      </ul>
+    ),
+  },
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
-  const [isPending, startTransition] = useTransition();
-
-  const handleTabChange = (id) => {
-    startTransition(() => {
-      setTab(id);
-    });
-  };
 
   return (
     <section className="text-white" id="about">
@@ -114,38 +105,18 @@ const AboutSection = () => {
             <br></br>
             技術顧問: ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)
           </p>
-          <div className="flex flex-row justify-start mt-8">
-            <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              {" "}
-              Skills{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("career")}
-              active={tab === "career"}
-            >
-              {" "}
-              Career{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("experiences")}
-              active={tab === "experiences"}
-            >
-              {" "}
-              Experiences{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("hobbies")}
-              active={tab === "hobbies"}
-            >
-              {" "}
-              Hobbies{" "}
-            </TabButton>
-          </div>
-          <div className="mt-8">
-            {TAB_DATA.find((t) => t.id === tab).content}
+          
+          <div className="mt-8 space-y-8">
+            {SECTIONS_DATA.map((section) => (
+              <div key={section.id}>
+                <h3 className="text-2xl font-bold text-white mb-4">
+                  {section.title}
+                </h3>
+                <div className="text-base lg:text-lg">
+                  {section.content}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
