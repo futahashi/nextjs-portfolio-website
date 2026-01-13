@@ -30,8 +30,9 @@ Storage etc.) </li>
     id: "career",
     content: (
       <ul className="list-disc pl-2">
-        <li>(2023-) ホライズンテクノロジー株式会社 技術顧問就任</li>
-        <li>(2018-) 株式会社ヌーラボ 所属</li>
+        <li>(2026-Present) Ignission G.K. SRE</li>
+        <li>(2023-Present) ホライズンテクノロジー株式会社 技術顧問就任</li>
+        <li>(2018-Present) 株式会社ヌーラボ 所属</li>
         <li>(2012-2018) 富士通九州ネットワークテクノロジーズ 所属</li>
         <li>(2012) 大分工業高等専門学校 電気電子情報工学専攻卒</li>
       </ul>

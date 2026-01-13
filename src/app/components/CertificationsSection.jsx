@@ -13,7 +13,9 @@ const CertificationsSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">Certifications 👑</h2>
           <ul className="text-lg list-disc pl-2">
             <li>(2026) HashiCorp Certified: Terraform Associate</li>
-            <li>(2025) Workato Automation Pro Ⅰ,Ⅱ,Ⅲ</li>
+            <li>(2025) Workato Automation Pro Ⅲ</li>
+            <li>(2025) Workato Automation Pro Ⅱ</li>
+            <li>(2025) Workato Automation Pro Ⅰ</li>
             <li>(2025) FinOps Certified Practitioner</li>
             <li>(2025) Datadog Certified: Datadog Fundamentals</li>
             <li>(2025) Datadog Certified: Log Management Fundamentals</li>
