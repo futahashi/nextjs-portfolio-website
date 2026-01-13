@@ -43,18 +43,19 @@ Storage etc.) </li>
     id: "experiences",
     content: (
       <ul className="list-disc pl-2">
-        <li>Design and implementation of system redundancy / acceleration / cost reduction / automation, etc.</li>
-        <li>Design and implementation of IPO-level system security.</li>
-        <li>24/365 Chat SaaS on call.</li>
-        <li>100+ servers management.</li>
-        <li>System design / development / operation / maintenance in AWS cloud.</li>
-        <li>Multi Account design / development / operation / maintenance in AWS cloud.</li>
-        <li>Load test environment design / development</li>
-        <li>DevOps environment design / development / operation / maintenance such as Jenkins, AWS Code series.</li>
-        <li>Linux OS major version up migration.</li>
-        <li>Server and network construction for on-premise environment.</li>
-        <li>Work in English with native speakers via video calls / chat / tickets.</li>
-        etc.
+        <li>15+ years of professional experience in the infrastructure and cloud engineering industry</li>
+        <li>Managed 50+ AWS accounts across multi-account environments</li>
+        <li>Managed 100+ servers across multiple environments</li>
+        <li>Designed and implemented system redundancy, acceleration, cost reduction, and automation solutions</li>
+        <li>Designed and implemented IPO-level system security measures</li>
+        <li>Provided 24/7 on-call support for Chat SaaS platform</li>
+        <li>Designed, developed, operated, and maintained systems in AWS cloud infrastructure</li>
+        <li>Designed, developed, operated, and maintained AWS multi-account environments</li>
+        <li>Designed and developed load testing environments</li>
+        <li>Designed, developed, operated, and maintained DevOps environments (Jenkins, AWS Code series)</li>
+        <li>Executed major version migrations for Linux OS, RDS, and various middleware components</li>
+        <li>Constructed and maintained servers and network infrastructure in on-premise environments</li>
+        <li>Collaborated with native English speakers through video calls, chat, and ticketing systems</li>
       </ul>
     ),
   },
