@@ -15,11 +15,11 @@ Storage etc.) </li>
         <li>FinOps</li>
         <li>Linux (Server construction / operation / maintenance etc.)</li>
         <li>IaC (Terraform / Ansible / Serverless Framework etc.)</li>
-        <li>DevOps (GitHub / AWS Code series / Jenkins / ChatOps etc.) </li>
+        <li>CI/CD (GitHub / AWS Code series / Jenkins / ChatOps etc.) </li>
         <li>Network (AWS Cloud Networking / Cisco etc.)</li>
         <li>Virtualization (Docker / KVM etc.)</li>
         <li>Monitoring (Mackerel / Pagerduty / Nagios etc.)</li>
-        <li>Programming (Python / Ruby etc.)</li>
+        <li>Programming (Python / Ruby / Java etc.)</li>
         <li>Project Management</li>
         etc.
       </ul>
@@ -44,16 +44,13 @@ Storage etc.) </li>
     content: (
       <ul className="list-disc pl-2">
         <li>15+ years of professional experience in the infrastructure and cloud engineering industry</li>
-        <li>Managed 50+ AWS accounts across multi-account environments</li>
+        <li>Managed 50+ AWS accounts and designed, developed, operated, and maintained multi-account cloud infrastructure</li>
         <li>Managed 100+ servers across multiple environments</li>
         <li>Established comprehensive observability using Datadog</li>
-        <li>Designed and implemented system redundancy, acceleration, cost reduction, and automation solutions</li>
+        <li>Designed and implemented system improvements including redundancy, acceleration, cost reduction, and automation</li>
         <li>Designed and implemented IPO-level system security measures</li>
         <li>Provided 24/7 on-call support for Chat SaaS platform</li>
-        <li>Designed, developed, operated, and maintained systems in AWS cloud infrastructure</li>
-        <li>Designed, developed, operated, and maintained AWS multi-account environments</li>
-        <li>Designed and developed load testing environments</li>
-        <li>Designed, developed, operated, and maintained DevOps environments (Jenkins, AWS Code series)</li>
+        <li>Designed and developed DevOps and load testing environments (Jenkins, AWS Code series)</li>
         <li>Executed major version migrations for Linux OS, RDS, and various middleware components</li>
         <li>Constructed and maintained servers and network infrastructure in on-premise environments</li>
         <li>Collaborated with native English speakers through video calls, chat, and ticketing systems</li>
