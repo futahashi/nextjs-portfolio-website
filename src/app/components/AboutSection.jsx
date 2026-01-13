@@ -4,6 +4,19 @@ import Image from "next/image";
 
 const SECTIONS_DATA = [
   {
+    title: "Career",
+    id: "career",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>(2026-Present) Ignission G.K. SRE</li>
+        <li>(2023-Present) ホライズンテクノロジー株式会社 技術顧問就任</li>
+        <li>(2018-Present) 株式会社ヌーラボ 所属</li>
+        <li>(2012-2018) 富士通九州ネットワークテクノロジーズ 所属</li>
+        <li>(2012) 大分工業高等専門学校 電気電子情報工学専攻卒</li>
+      </ul>
+    ),
+  },
+  {
     title: "Skills",
     id: "skills",
     content: (
@@ -22,19 +35,6 @@ Storage etc.) </li>
         <li>Programming (Python / Ruby / Java etc.)</li>
         <li>Project Management</li>
         etc.
-      </ul>
-    ),
-  },
-  {
-    title: "Career",
-    id: "career",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>(2026-Present) Ignission G.K. SRE</li>
-        <li>(2023-Present) ホライズンテクノロジー株式会社 技術顧問就任</li>
-        <li>(2018-Present) 株式会社ヌーラボ 所属</li>
-        <li>(2012-2018) 富士通九州ネットワークテクノロジーズ 所属</li>
-        <li>(2012) 大分工業高等専門学校 電気電子情報工学専攻卒</li>
       </ul>
     ),
   },
@@ -81,7 +81,7 @@ const AboutSection = () => {
           
           <div className="space-y-4 text-base lg:text-lg">
             <p>
-              Hello! I&apos;m futahashi (Nobutomo Futahashi).
+              Hello! I&apos;m futahashi (Hisatomo Futahashi).
               I work primarily as an SRE, specializing in AWS / Datadog / FinOps / Security engineering.
               My favorite sayings are &quot;Persistence is power&quot;, &quot;Patience and perseverance overcome all things&quot;, &quot;Fortune comes to the homes of those who smile&quot;, and &quot;A heart of love and compassion&quot;.
               I&apos;m an engineer who approaches work with passion and conviction, engages with people through respect and trust, and values laughter and enjoyment in all things. Probably.
@@ -97,7 +97,7 @@ const AboutSection = () => {
             </p>
 
             <div className="pt-2">
-              <h4 className="text-lg font-bold text-white mb-2">Current Positions</h4>
+              <h3 className="text-2xl font-bold text-white mb-4">Current Positions</h3>
               <p className="font-semibold">Lead SRE @ 株式会社ヌーラボ (Nulab Inc.)</p>
               <p className="font-semibold">技術顧問 (Technical Advisor) @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)</p>
               <p className="font-semibold">SRE @ 合同会社Ignission (Ignission G.K.)</p>
