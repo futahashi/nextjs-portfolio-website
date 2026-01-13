@@ -96,13 +96,6 @@ const AboutSection = () => {
               I hope to connect with many wonderful people through work and hobbies!
             </p>
 
-            <div className="pt-2">
-              <h3 className="text-2xl font-bold text-white mb-4">Current Positions</h3>
-              <p className="font-semibold">Lead SRE @ 株式会社ヌーラボ (Nulab Inc.)</p>
-              <p className="font-semibold">技術顧問 (Technical Advisor) @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)</p>
-              <p className="font-semibold">SRE @ 合同会社Ignission (Ignission G.K.)</p>
-            </div>
-
             <div className="border-t border-gray-600 pt-6 mt-6">
               <p className="text-gray-300">
                 こんにちは! futahashi ( 二橋 宣友 ) です。
@@ -119,6 +112,13 @@ const AboutSection = () => {
                 世界平和実現に向けて仕事も家庭も頑張ります。
                 仕事や趣味を通じてより多くの素敵な方々と関われると幸いです！
               </p>
+            </div>
+
+            <div className="pt-6 mt-6">
+              <h3 className="text-2xl font-bold text-white mb-4">Current Positions</h3>
+              <p className="font-semibold">Lead SRE @ 株式会社ヌーラボ (Nulab Inc.)</p>
+              <p className="font-semibold">技術顧問 (Technical Advisor) @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)</p>
+              <p className="font-semibold">SRE @ 合同会社Ignission (Ignission G.K.)</p>
             </div>
           </div>
           
