@@ -46,6 +46,7 @@ Storage etc.) </li>
         <li>15+ years of professional experience in the infrastructure and cloud engineering industry</li>
         <li>Managed 50+ AWS accounts across multi-account environments</li>
         <li>Managed 100+ servers across multiple environments</li>
+        <li>Established comprehensive observability using Datadog</li>
         <li>Designed and implemented system redundancy, acceleration, cost reduction, and automation solutions</li>
         <li>Designed and implemented IPO-level system security measures</li>
         <li>Provided 24/7 on-call support for Chat SaaS platform</li>
