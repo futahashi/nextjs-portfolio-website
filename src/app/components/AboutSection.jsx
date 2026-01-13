@@ -78,25 +78,43 @@ const AboutSection = () => {
         {/* <Image src="/images/futahashi2.jpg" width={500} height={500} /> */}
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me 🤩</h2>
-          <p className="text-base lg:text-lg">
-            こんにちは! futahashi ( 二橋 宣友 ) です。
-            主にSREとして、AWS / Datadog / FinOps / Security エンジニアとして働いています。
-            好きな言葉は、継続は力なり / 石の上にも三年 / 笑う門には福来る / 愛と慈しみの心 です。
-            情熱と信念を持って仕事に取り組み、尊敬と信頼を持って人々と関わり、何事においても笑いと楽しさを大切にする、そんなエンジニアです。たぶん。
-            <br></br>
-            <br></br>
-            国内大企業の大規模プロジェクトで身につけた業務遂行能力と、グローバルに展開するスタートアップ企業で培った技術やコラボレーション能力、多様なSRE経験の積み重ねが強みです。
-            <br></br>
-            <br></br>
-            世界平和実現に向けて仕事も家庭も頑張ります。
-            仕事や趣味を通じてより多くの素敵な方々と関われると幸いです！
-            <br></br>
-            <br></br>
-            Lead SRE @ 株式会社ヌーラボ (Nulab Inc.)
-            <br></br>
-            技術顧問 @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)
-            SRE @ 合同会社Ignission (Ignission G.K.)
-          </p>
+          
+          <div className="space-y-4 text-base lg:text-lg">
+            <p>
+              Hello! I&apos;m futahashi (Nobutomo Futahashi).
+              I work primarily as an SRE, specializing in AWS / Datadog / FinOps / Security engineering.
+              My favorite sayings are &quot;Persistence is power&quot;, &quot;Patience and perseverance overcome all things&quot;, &quot;Fortune comes to the homes of those who smile&quot;, and &quot;A heart of love and compassion&quot;.
+              I&apos;m an engineer who approaches work with passion and conviction, engages with people through respect and trust, and values laughter and enjoyment in all things. Probably.
+            </p>
+            <p className="text-gray-300">
+              こんにちは! futahashi ( 二橋 宣友 ) です。
+              主にSREとして、AWS / Datadog / FinOps / Security エンジニアとして働いています。
+              好きな言葉は、継続は力なり / 石の上にも三年 / 笑う門には福来る / 愛と慈しみの心 です。
+              情熱と信念を持って仕事に取り組み、尊敬と信頼を持って人々と関わり、何事においても笑いと楽しさを大切にする、そんなエンジニアです。たぶん。
+            </p>
+
+            <p>
+              My strengths include execution capabilities developed through large-scale projects at major Japanese corporations, technical and collaboration skills cultivated at globally expanding startups, and accumulated diverse SRE experience.
+            </p>
+            <p className="text-gray-300">
+              国内大企業の大規模プロジェクトで身につけた業務遂行能力と、グローバルに展開するスタートアップ企業で培った技術やコラボレーション能力、多様なSRE経験の積み重ねが強みです。
+            </p>
+
+            <p>
+              I strive to do my best in both work and family toward achieving world peace.
+              I hope to connect with many wonderful people through work and hobbies!
+            </p>
+            <p className="text-gray-300">
+              世界平和実現に向けて仕事も家庭も頑張ります。
+              仕事や趣味を通じてより多くの素敵な方々と関われると幸いです！
+            </p>
+
+            <div className="pt-2">
+              <p className="font-semibold">Lead SRE @ 株式会社ヌーラボ (Nulab Inc.)</p>
+              <p className="font-semibold">技術顧問 @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)</p>
+              <p className="font-semibold">SRE @ 合同会社Ignission (Ignission G.K.)</p>
+            </div>
+          </div>
           
           <div className="mt-8 space-y-8">
             {SECTIONS_DATA.map((section) => (
