@@ -15,11 +15,8 @@ const ContributionsSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">Contributions 💪</h2>
           <ul className="text-lg list-disc pl-2">
             <li>
-              Datadog Live Tokyo 2025 (12/16) - AI Agent で実現する AIOps ― Bits AI SRE 国内活用事例 ―
-            </li>
-            <li>
               <ExternalLink href="https://www.datadoghq.com/ja/blog/datadog-live-tokyo-2025-recap/">
-              Datadog Live Tokyo 2025 Fireside Chat「AI Agentで実現するAIOps – Bits AI SRE 国内活用事例 – 」開催レポート
+              Datadog Live Tokyo 2025 Fireside Chat「AI Agentで実現するAIOps – Bits AI SRE 国内活用事例 – 」
               </ExternalLink>
             </li>
             <li>
