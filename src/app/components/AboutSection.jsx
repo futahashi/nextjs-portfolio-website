@@ -8,10 +8,10 @@ const SECTIONS_DATA = [
     id: "career",
     content: (
       <ul className="list-disc pl-2">
-        <li>(2026-Present) 株式会社LayerX SRE</li>
-        <li>(2026-Present) Ignission G.K. SRE</li>
-        <li>(2023-Present) ホライズンテクノロジー株式会社 技術顧問</li>
-        <li>(2018-Present) 株式会社ヌーラボ 所属</li>
+        <li>(2026-Present) SRE @ 株式会社LayerX (LayerX Inc.)</li>
+        <li>(2026-Present) SRE @ 合同会社Ignission (Ignission G.K.)</li>
+        <li>(2023-Present) Technical Advisor @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)</li>
+        <li>(2018-Present) Principal Engineer @ 株式会社ヌーラボ (Nulab Inc.)</li>
         <li>(2012-2018) 富士通九州ネットワークテクノロジーズ 所属</li>
         <li>(2012) 大分工業高等専門学校 電気電子情報工学専攻卒</li>
       </ul>
@@ -117,10 +117,12 @@ const AboutSection = () => {
 
             <div className="pt-6 mt-6">
               <h3 className="text-2xl font-bold text-white mb-4">Current Positions</h3>
-              <p className="font-semibold">SRE @ 株式会社LayerX (LayerX Inc.)</p>
-              <p className="font-semibold">Principal Engineer @ 株式会社ヌーラボ (Nulab Inc.)</p>
-              <p className="font-semibold">技術顧問 (Technical Advisor) @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)</p>
-              <p className="font-semibold">SRE @ 合同会社Ignission (Ignission G.K.)</p>
+              <ul className="list-disc pl-2">
+                <li className="font-semibold">SRE @ 株式会社LayerX (LayerX Inc.)</li>
+                <li className="font-semibold">Principal Engineer @ 株式会社ヌーラボ (Nulab Inc.)</li>
+                <li className="font-semibold">技術顧問 (Technical Advisor) @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)</li>
+                <li className="font-semibold">SRE @ 合同会社Ignission (Ignission G.K.)</li>
+              </ul>
             </div>
           </div>
           
