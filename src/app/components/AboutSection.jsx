@@ -12,8 +12,8 @@ const SECTIONS_DATA = [
         <li>(2026-Present) SRE @ 合同会社Ignission (Ignission G.K.)</li>
         <li>(2023-Present) Technical Advisor @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)</li>
         <li>(2018-Present) Principal Engineer @ 株式会社ヌーラボ (Nulab Inc.)</li>
-        <li>(2012-2018) 富士通九州ネットワークテクノロジーズ 所属</li>
-        <li>(2012) 大分工業高等専門学校 電気電子情報工学専攻卒</li>
+        <li>(2012-2018) 富士通九州ネットワークテクノロジーズ (現富士通株式会社)</li>
+        <li>(2012) 国立大分工業高等専門学校 電気電子情報工学専攻卒</li>
       </ul>
     ),
   },
@@ -118,10 +118,10 @@ const AboutSection = () => {
             <div className="pt-6 mt-6">
               <h3 className="text-2xl font-bold text-white mb-4">Current Positions</h3>
               <ul className="list-disc pl-2">
-                <li className="font-semibold">SRE @ 株式会社LayerX (LayerX Inc.)</li>
-                <li className="font-semibold">Principal Engineer @ 株式会社ヌーラボ (Nulab Inc.)</li>
-                <li className="font-semibold">技術顧問 (Technical Advisor) @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)</li>
-                <li className="font-semibold">SRE @ 合同会社Ignission (Ignission G.K.)</li>
+                <li>Principal Engineer @ 株式会社ヌーラボ (Nulab Inc.)</li>
+                <li>SRE @ 株式会社LayerX (LayerX Inc.)</li>
+                <li>技術顧問 (Technical Advisor) @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)</li>
+                <li>SRE @ 合同会社Ignission (Ignission G.K.)</li>
               </ul>
             </div>
           </div>
