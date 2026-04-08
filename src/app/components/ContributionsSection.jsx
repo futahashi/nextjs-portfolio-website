@@ -15,6 +15,11 @@ const ContributionsSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">Contributions 💪</h2>
           <ul className="text-lg list-disc pl-2">
             <li>
+              <ExternalLink href="https://techbookfest.org/product/mATX94F5RxwusXgqgma8US">
+              SRE Magazine Vol.01 - 第4章 SRE Agent とは? SRE Agent による SRE の未来
+              </ExternalLink>
+            </li>
+            <li>
               <ExternalLink href="https://www.datadoghq.com/ja/blog/datadog-live-tokyo-2025-recap/">
               Datadog Live Tokyo 2025 Fireside Chat「AI Agentで実現するAIOps – Bits AI SRE 国内活用事例 – 」
               </ExternalLink>
@@ -60,7 +65,7 @@ const ContributionsSection = () => {
           </ul>
         </div>
         <div>
-          <Image src="/images/contributions/webdb116.jpg" width={200} height={200} />
+          <Image src="/images/contributions/webdb116.jpg" alt="WEB+DB PRESS Vol.116 cover" width={200} height={200} />
         </div>
       </div>
     </section>

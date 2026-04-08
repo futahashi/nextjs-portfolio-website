@@ -22,17 +22,17 @@ const achievementsList = [
   },
   {
     metric: "Certifications",
-    value: "25",
+    value: "30",
     postfix: "+",
   },
   {
     metric: "Contributions",
-    value: "10",
+    value: "15",
     postfix: "+",
   },
   {
     metric: "Presentations",
-    value: "20",
+    value: "25",
     postfix: "+",
   },
 ];

@@ -15,6 +15,11 @@ const CommunitySection = () => {
               </ExternalLink>
             </li>
             <li>
+              <ExternalLink href="https://www.finops.org/community/">
+              FinOps Community
+              </ExternalLink>
+            </li>
+            <li>
               <ExternalLink href="https://techplay.jp/community/snowvillage-kyushu">
               Snowflake Kyushu User Group
               </ExternalLink>
