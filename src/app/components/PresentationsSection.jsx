@@ -20,6 +20,11 @@ const PresentationsSection = () => {
               </ExternalLink>
             </li>
             <li>
+              <ExternalLink href="https://gamma.app/docs/-ztmbgr763gbjh21">
+                私の相棒の紹介と彼との思ひ出
+              </ExternalLink>
+            </li>
+            <li>
               <ExternalLink href="https://gamma.app/docs/My-Partners-Introduction-and-Memories-with-It-7jq4zyzlpqnl6qw?mode=doc">
                 My Partner&apos;s Introduction and Memories with It
               </ExternalLink>
