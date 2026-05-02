@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container p-12 flex justify-between">
         {/* <span>LOGO</span> */}
         <span></span>
-        <p className="text-slate-600">2023 © futahashi</p>
+        <p className="text-slate-600">{new Date().getFullYear()} © futahashi</p>
       </div>
     </footer>
   );

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
@@ -8,7 +7,6 @@ import ContributionsSection from "./components/ContributionsSection";
 import PresentationsSection from "./components/PresentationsSection";
 import BlogsSection from "./components/BlogsSection";
 import CommunitySection from "./components/CommunitySection";
-import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
@@ -27,7 +25,6 @@ export default function Home() {
         <PresentationsSection />
         <BlogsSection />
         <CommunitySection />
-        {/* <ProjectsSection /> */}
         <EmailSection />
       </div>
       <Footer />
