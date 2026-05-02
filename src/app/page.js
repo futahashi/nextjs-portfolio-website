@@ -5,6 +5,8 @@ import AboutSection from "./components/AboutSection";
 import AwardsSection from "./components/AwardsSection";
 import CertificationsSection from "./components/CertificationsSection";
 import ContributionsSection from "./components/ContributionsSection";
+import PresentationsSection from "./components/PresentationsSection";
+import BlogsSection from "./components/BlogsSection";
 import CommunitySection from "./components/CommunitySection";
 import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
@@ -22,6 +24,8 @@ export default function Home() {
         <AwardsSection />
         <CertificationsSection />
         <ContributionsSection />
+        <PresentationsSection />
+        <BlogsSection />
         <CommunitySection />
         {/* <ProjectsSection /> */}
         <EmailSection />

@@ -23,6 +23,14 @@ const navLinks = [
     path: "#contributions",
   },
   {
+    title: "Presentations",
+    path: "#presentations",
+  },
+  {
+    title: "Blogs",
+    path: "#blogs",
+  },
+  {
     title: "Community",
     path: "#community",
   },
