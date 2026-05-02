@@ -5,8 +5,15 @@ import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import FacebookIcon from "../../../public/facebook-icon.svg";
 import XIcon from "../../../public/x-icon.svg";
 import InstagramIcon from "../../../public/instagram-icon.svg";
-import Link from "next/link";
 import Image from "next/image";
+
+const SOCIAL_LINKS = [
+  { href: "https://www.facebook.com/hisatomo.futahashi/", icon: FacebookIcon, label: "Facebook" },
+  { href: "https://twitter.com/futahashi", icon: XIcon, label: "X (Twitter)" },
+  { href: "https://www.linkedin.com/in/hisatomo-futahashi/", icon: LinkedinIcon, label: "LinkedIn" },
+  { href: "https://github.com/futahashi", icon: GithubIcon, label: "GitHub" },
+  { href: "https://www.instagram.com/futahashi_h/", icon: InstagramIcon, label: "Instagram" },
+];
 
 const EmailSection = () => {
   return (
@@ -36,21 +43,17 @@ const EmailSection = () => {
           try my best to get back to you! */}
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://www.facebook.com/hisatomo.futahashi/">
-            <Image src={FacebookIcon} alt="Facebook Icon" />
-          </Link>
-          <Link href="https://twitter.com/futahashi">
-            <Image src={XIcon} alt="X Icon" />
-          </Link>
-          <Link href="https://www.linkedin.com/in/hisatomo-futahashi/">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
-          </Link>
-          <Link href="https://github.com/futahashi">
-            <Image src={GithubIcon} alt="Github Icon" />
-          </Link>
-          <Link href="https://www.instagram.com/futahashi_h/">
-            <Image src={InstagramIcon} alt="Instagram Icon" />
-          </Link>
+          {SOCIAL_LINKS.map(({ href, icon, label }) => (
+            <a
+              key={href}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={label}
+            >
+              <Image src={icon} alt={`${label} icon`} />
+            </a>
+          ))}
         </div>
       </div>
       </div>
