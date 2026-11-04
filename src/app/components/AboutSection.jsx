@@ -8,8 +8,8 @@ const SECTIONS_DATA = [
     id: "career",
     content: (
       <ul className="list-disc pl-2">
-        <li>(2026-Present) SRE @ 株式会社LayerX (LayerX Inc.)</li>
         <li>(2026-Present) SRE @ 合同会社Ignission (Ignission G.K.)</li>
+        <li>(2026) SRE @ 株式会社LayerX (LayerX Inc.)</li>
         <li>(2023-Present) Technical Advisor @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)</li>
         <li>(2018-Present) Principal Engineer @ 株式会社ヌーラボ (Nulab Inc.)</li>
         <li>(2012-2018) 富士通九州ネットワークテクノロジーズ (現富士通株式会社)</li>
@@ -119,7 +119,6 @@ const AboutSection = () => {
               <h3 className="text-2xl font-bold text-white mb-4">Current Positions</h3>
               <ul className="list-disc pl-2">
                 <li>Principal Engineer @ 株式会社ヌーラボ (Nulab Inc.)</li>
-                <li>SRE @ 株式会社LayerX (LayerX Inc.)</li>
                 <li>技術顧問 (Technical Advisor) @ ホライズンテクノロジー株式会社 (HORIZON TECHNOLOGY Co.,Ltd.)</li>
                 <li>SRE @ 合同会社Ignission (Ignission G.K.)</li>
               </ul>
